@@ -7,5 +7,9 @@ class App < Sinatra::Base
     erb :
   end
 
+  get '/new'
+    erb :index
+  end
+
 
 end
