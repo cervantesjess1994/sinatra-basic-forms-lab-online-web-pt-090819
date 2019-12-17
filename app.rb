@@ -7,6 +7,7 @@ class App < Sinatra::Base
   end
 
   get '/puppy' do
+    @puppy = params[:new_puppy]
     erb :create_puppy
   end
 
